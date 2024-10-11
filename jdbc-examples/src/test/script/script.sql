@@ -18,3 +18,7 @@ select u.id as user_id,u.name,count(a.user_id) as count from user u join address
                                                                          on u.id=a.user_id
 group by u.id
 order by count desc;
+select u.id as user_id,u.name,count(a.user_id) as count from user u join address a
+                                                                         on u.id=a.user_id
+group by u.id
+order by count desc;
