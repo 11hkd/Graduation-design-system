@@ -30,4 +30,4 @@ select u.id from user u where u.id='1283960607856160768';
 
 select a.id from address a where a.detail='111';
 
-select * from address a where a.detail='111';
+select a.id from address a where a.detail='111';
