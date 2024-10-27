@@ -1,0 +1,16 @@
+POST localhost:8080/api/login
+Content-type:application/json
+
+{
+"account":"1001",
+"password":"3213"
+}
+###成功
+POST localhost:8080/api/login
+Content-type:application/json
+
+{
+"account":"",
+"password":"123456"
+}
+
