@@ -8,11 +8,8 @@ import org.springframework.stereotype.Component;
 @Component
 public class JWTComponent {
 
-    @Value("${my:secretkey}")
     private String secretkey;
-
     public String encode(){
-
     }
 
 }
