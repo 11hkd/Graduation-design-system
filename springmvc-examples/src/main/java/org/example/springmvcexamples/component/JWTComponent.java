@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class JWTComponent {
 
-    private String secretke
+    private String secretke1
     public String encode(){
     }
 
